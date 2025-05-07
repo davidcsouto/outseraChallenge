@@ -20,7 +20,7 @@ public class LoginLogic {
     public LoginLogic() {
         loginPage = new LoginPage();
 
-        dadosLogin = new HashMap<>(){{
+        dadosLogin = new HashMap<String, String>(){{
             put("email", "avaliacaoutsera@gmail.com");
             put("password", "avaliacaooutsera");
         }};
