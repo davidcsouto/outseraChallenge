@@ -119,7 +119,7 @@ public class CheckoutLogic {
 
         step = "Selecionando forma de envio e concordando com termos e serviços";
         log.info(step);
-
+        webSupport().elementIsVisible(checkoutPage.getButtonProceedToCheckoutShippingPage());
         webSupport().executeScript(checkoutPage.getCheckboxTermsOfService(), "arguments[0].click()");
         webSupport().registerScreenshotAllureReport(step);
 
