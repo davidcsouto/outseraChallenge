@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3736","Runs Cucumber Scenarios","TestSuite","Thu May 08 15:09:13 GMT 2025","passed","Thu May 08 15:09:16 GMT 2025","runner.RunnerWeb","TestProject","runner.RunnerWeb","runScenario"
+"","1729","Runs Cucumber Scenarios","TestSuite","Thu May 08 15:09:16 GMT 2025","passed","Thu May 08 15:09:18 GMT 2025","runner.RunnerApi","TestProject","runner.RunnerApi","runScenario"
+"","18489","Runs Cucumber Scenarios","TestSuite","Thu May 08 15:08:54 GMT 2025","passed","Thu May 08 15:09:12 GMT 2025","runner.RunnerWeb","TestProject","runner.RunnerWeb","runScenario"
