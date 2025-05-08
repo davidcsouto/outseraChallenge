@@ -1,8 +1,9 @@
 package runner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import support.Context;
 import support.Utils;
 
@@ -10,13 +11,13 @@ import java.io.File;
 
 public class Runner extends AbstractTestNGCucumberTests {
 
-    @BeforeClass
+    @BeforeSuite
     public void beforeClassMethod(){
         Utils.deleteFolder(new File(Utils.getRootPath() + "\\allure-results"));
         Context.setup();
     }
 
-    @AfterTest
+    @AfterSuite
     public static void afterClassMethod(){
         Context.closeWebDriver();
     }

@@ -5,6 +5,7 @@
     <test name="TestProject">
         <classes>
             <class name="runner.RunnerWeb" />
+            <class name="runner.RunnerApi" />
         </classes>
     </test>
 

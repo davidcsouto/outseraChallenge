@@ -3,9 +3,9 @@ package runner;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "classpath:features",
+        features = "classpath:features/Web",
         glue = "classpath:web",
-        tags = "@AutomationPractice",
+        tags = "",
         plugin = {"json:target/cucumber-report/cucumber.json"}
 )
 
