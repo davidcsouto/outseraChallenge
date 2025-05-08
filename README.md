@@ -9,4 +9,4 @@
 5. Estará pronto para executar
 6. Ao final da execução executar o comando abaixo via terminal na pasta do projeto:
 ``allure serve allure-results\`` para verificar o resultado e evidências geradas.
-7. Report pode ser visualizado em https://davidcsouto.github.io/outseraChallenge/17/index.html
+7. Report pode ser visualizado em https://davidcsouto.github.io/outseraChallenge
